@@ -1,0 +1,316 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+  z-index: 1000;
+  text-align: center;
+  top: 0;
+  position: sticky;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+  display: inline;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 14px20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navbar a:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+.navbar a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .navbar ul {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .navbar li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar {
+  justify-content: center;
+  background-color: #333;
+  display: flex;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px20px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+footer {
+  color: white;
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.main-content {
+  margin-top: 20px;
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.recipeBox {
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+.headingHome {
+  color: #4caf50;
+  text-align: center;
+}
+
+.searching {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+.recipeForm {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-title {
+  color: #4caf50;
+  margin-bottom: 15px;
+}
+
+.inputFieldData,
+.textareaFieldData {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.textareaFieldData {
+  height: 80px;
+}
+
+.addRecipeButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addRecipeButton:hover {
+  background-color: #45a049;
+}
+
+.recipeDataList {
+  margin-top: 20px;
+}
+
+.recipeHeading {
+  color: #4caf50;
+  margin-bottom: 15px;
+}
+
+.recipeCardHomepage {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.titleRecipe {
+  color: #333;
+  margin-top: 0;
+}
+
+.categories,
+.ingredients,
+.methodRecipe {
+  margin: 5px0;
+}
+
+.noData {
+  color: #999;
+  text-align: center;
+}
+
+.aboutPageBox {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 04px8pxrgba (0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.aboutHeading {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.about-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.aboutContent {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .aboutPageBox {
+    padding: 15px;
+  }
+
+  .aboutHeading {
+    font-size: 28px;
+  }
+
+  .aboutContent {
+    font-size: 16px;
+  }
+}
+
+.contact-conatiner {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 04px 8px rgba (0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.contactHeading {
+  font-size: 32px;
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contactData {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #555;
+  font-size: 18px;
+}
+
+.ItemList {
+  color: #333;
+  padding: 0;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.ItemListli {
+  margin-bottom: 10px;
+}
+
+.ItemLista {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.ItemLista:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .contact-conatiner {
+    padding: 15px;
+  }
+
+  .contactHeading {
+    font-size: 28px;
+  }
+
+  .contactData,
+  .ItemList {
+    font-size: 16px;
+  }
+}
